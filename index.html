@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hello World</title>
+  <style>
+    *{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .tengah{
+       display: flex;
+       justify-content: center;
+      
+       }
+   </style>
+   </head>
+   <body>
+    div class"tengah">
+     div class="card">
+     <h2> Hitung Luas Persegi</h2>
+    
+     <div class"cardbody">
+     <from>
+       <label>Nilai Panjang</label>
+       <input type=""text" id="npj">
+
+       <label>Nilai Lebar</label>
+        <input type=""text" id="nLB">
+        </from>
+        <div id "hasil">Hasil Hitung Luas Persegi</div><div>
+        </div>
+         <div class="
+
+
+       
+
+
+  </style>
+
+
+
+
+</head>
+<body>
+
+  <h2>hitung luas persegi</h2>
+ <form>
+ <label>Nilai panjang</label>
+    <input type="text" id="nPJ">
+
+ <label>Nilai panjang</label>
+    <input type="text" id="nLB">
+    <button type="button" onclick="hitungluas()" class="btnhitung">Hitung Luas</button>
+ </form>
+
+ 
+ <script>
+    function hitungluas(){
+      let pj = document.getElementById("nPJ").value
+      let lb = document.getElementById("nLB").value
+
+      Keliling = 2* (pj + lb)
+      let PJLB = pj + lb
+      let kll = " Keliling Persegi = " + Keliling + " cm "
+
+    
+    
+    
+    let LU = pj*lb
+      
+        let hsl = "Hitung Nilai Persegi dengan Nilai <br>"
+        hsl += "Panjang = "= pj +"cm; <br>lebar = "+ lb + "cm;<br>"
+        hsl += "Luas = Panjang X Lebar<br>" 
+        hsl += "Luas = "+ pj +" x" + lb + "<br>"
+        hsl += "luas = " + LU + "cm<sup>2</sup><br>"
+        hsl += "Hitung Keliling Persegi<br>"
+        hsl += "Keliling = 2 X (Panjang + Lebar)<br>"
+        hsl += "Keliling = 2 X (" + pj + " + " + lb +")<br>"
+        hsl += "Keliling = 2 X " + PJLB + "<br>"
+        hsl += "Keliling = " + KLL + " cm<br>"
+
+      
+      
+
+
+
+    
+        
+        document.getElementById("hasil").innerHTML = hsl
+
+    }
+  
+</script>
+
+</body>
+</html>
